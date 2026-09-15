@@ -1,0 +1,12 @@
+--------------------------------------------------
+Station:                           CSB
+Total iterations (full chain):    111403
+Iterations after burn-in:         101403
+Acceptance rate:                  26.73%
+Number of models used:            32987
+Misfit range of models used:      4.44 - 21.66
+Estimated Sediment velocity:      1.03 ± 0.14 km/s
+Estimated Sediment Vp/Vs0:        3.11 ± 0.26
+Estimated Avg. Crustal Vs:         3.51 ± 0.22 km/s
+Estimated Moho Depth:              30.50 ± 2.91 km
+--------------------------------------------------

@@ -1,0 +1,12 @@
+--------------------------------------------------
+Station:                           257A
+Total iterations (full chain):    113506
+Iterations after burn-in:         103504
+Acceptance rate:                  25.66%
+Number of models used:            32068
+Misfit range of models used:      4.28 - 22.84
+Estimated Sediment velocity:      1.18 ± 0.07 km/s
+Estimated Sediment Vp/Vs0:        3.06 ± 0.27
+Estimated Avg. Crustal Vs:         3.41 ± 0.20 km/s
+Estimated Moho Depth:              31.29 ± 2.87 km
+--------------------------------------------------

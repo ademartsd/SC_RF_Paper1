@@ -1,0 +1,12 @@
+--------------------------------------------------
+Station:                           E30
+Total iterations (full chain):    100004
+Iterations after burn-in:         90003
+Acceptance rate:                  27.38%
+Number of models used:            28742
+Misfit range of models used:      2.41 - 22.80
+Estimated Sediment velocity:      1.00 ± 0.16 km/s
+Estimated Sediment Vp/Vs0:        3.06 ± 0.28
+Estimated Avg. Crustal Vs:         3.43 ± 0.26 km/s
+Estimated Moho Depth:              30.60 ± 3.17 km
+--------------------------------------------------

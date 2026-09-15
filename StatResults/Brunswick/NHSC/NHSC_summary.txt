@@ -1,0 +1,12 @@
+--------------------------------------------------
+Station:                           NHSC
+Total iterations (full chain):    109458
+Iterations after burn-in:         99458
+Acceptance rate:                  26.71%
+Number of models used:            32322
+Misfit range of models used:      4.50 - 26.55
+Estimated Sediment velocity:      1.02 ± 0.15 km/s
+Estimated Sediment Vp/Vs0:        3.09 ± 0.27
+Estimated Avg. Crustal Vs:         3.47 ± 0.23 km/s
+Estimated Moho Depth:              30.14 ± 3.09 km
+--------------------------------------------------
