@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           CASEE
+Total iterations (full chain):    100003
+Iterations after burn-in:         89999
+Acceptance rate:                  16.34%
+Number of models used:            16870
+Misfit range of models used:      1.18 - 16.40
+Estimated Avg. Crustal Vs:         3.63 ± 0.26 km/s
+Estimated Moho Depth:              54.25 ± 4.00 km
+--------------------------------------------------

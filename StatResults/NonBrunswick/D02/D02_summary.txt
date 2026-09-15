@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           D02
+Total iterations (full chain):    100003
+Iterations after burn-in:         89984
+Acceptance rate:                  13.80%
+Number of models used:            14751
+Misfit range of models used:      2.14 - 17.26
+Estimated Avg. Crustal Vs:         3.71 ± 0.29 km/s
+Estimated Moho Depth:              35.66 ± 2.83 km
+--------------------------------------------------

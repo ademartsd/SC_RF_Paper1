@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           HODGE
+Total iterations (full chain):    100003
+Iterations after burn-in:         89978
+Acceptance rate:                  15.01%
+Number of models used:            15316
+Misfit range of models used:      1.00 - 14.35
+Estimated Avg. Crustal Vs:         3.72 ± 0.25 km/s
+Estimated Moho Depth:              39.47 ± 3.61 km
+--------------------------------------------------

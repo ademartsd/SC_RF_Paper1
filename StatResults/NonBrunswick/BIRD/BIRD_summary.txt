@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           BIRD
+Total iterations (full chain):    100013
+Iterations after burn-in:         90011
+Acceptance rate:                  14.92%
+Number of models used:            15171
+Misfit range of models used:      0.97 - 23.90
+Estimated Avg. Crustal Vs:         3.68 ± 0.25 km/s
+Estimated Moho Depth:              36.00 ± 2.55 km
+--------------------------------------------------

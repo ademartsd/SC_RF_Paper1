@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           HAW
+Total iterations (full chain):    100007
+Iterations after burn-in:         90001
+Acceptance rate:                  14.32%
+Number of models used:            14737
+Misfit range of models used:      3.02 - 19.37
+Estimated Avg. Crustal Vs:         3.68 ± 0.24 km/s
+Estimated Moho Depth:              32.44 ± 2.50 km
+--------------------------------------------------

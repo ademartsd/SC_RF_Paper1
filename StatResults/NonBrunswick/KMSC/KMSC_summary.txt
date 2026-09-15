@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           KMSC
+Total iterations (full chain):    100001
+Iterations after burn-in:         89992
+Acceptance rate:                  14.23%
+Number of models used:            15022
+Misfit range of models used:      1.64 - 21.73
+Estimated Avg. Crustal Vs:         3.66 ± 0.26 km/s
+Estimated Moho Depth:              39.63 ± 4.08 km
+--------------------------------------------------

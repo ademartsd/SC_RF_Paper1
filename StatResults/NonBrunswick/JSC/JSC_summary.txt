@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           JSC
+Total iterations (full chain):    100018
+Iterations after burn-in:         90018
+Acceptance rate:                  15.39%
+Number of models used:            15151
+Misfit range of models used:      1.38 - 10.06
+Estimated Avg. Crustal Vs:         3.66 ± 0.23 km/s
+Estimated Moho Depth:              36.07 ± 2.59 km
+--------------------------------------------------

@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           JKYD
+Total iterations (full chain):    100010
+Iterations after burn-in:         90007
+Acceptance rate:                  15.75%
+Number of models used:            14728
+Misfit range of models used:      0.79 - 4.81
+Estimated Avg. Crustal Vs:         3.62 ± 0.25 km/s
+Estimated Moho Depth:              32.18 ± 2.76 km
+--------------------------------------------------
