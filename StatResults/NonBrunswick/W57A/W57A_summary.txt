@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           W57A
+Total iterations (full chain):    100014
+Iterations after burn-in:         90009
+Acceptance rate:                  15.13%
+Number of models used:            15559
+Misfit range of models used:      1.22 - 15.02
+Estimated Avg. Crustal Vs:         3.72 ± 0.24 km/s
+Estimated Moho Depth:              39.94 ± 3.56 km
+--------------------------------------------------

@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           PAULI
+Total iterations (full chain):    100001
+Iterations after burn-in:         90000
+Acceptance rate:                  15.17%
+Number of models used:            15285
+Misfit range of models used:      1.38 - 13.20
+Estimated Avg. Crustal Vs:         3.86 ± 0.22 km/s
+Estimated Moho Depth:              39.93 ± 3.52 km
+--------------------------------------------------
