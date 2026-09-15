@@ -1,0 +1,12 @@
+--------------------------------------------------
+Station:                           TEEBA
+Total iterations (full chain):    117235
+Iterations after burn-in:         107234
+Acceptance rate:                  26.06%
+Number of models used:            34484
+Misfit range of models used:      4.42 - 24.84
+Estimated Sediment velocity:      1.02 ± 0.14 km/s
+Estimated Sediment Vp/Vs0:        3.11 ± 0.26
+Estimated Avg. Crustal Vs:         3.44 ± 0.26 km/s
+Estimated Moho Depth:              30.69 ± 2.93 km
+--------------------------------------------------

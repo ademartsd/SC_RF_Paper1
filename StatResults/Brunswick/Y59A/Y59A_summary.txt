@@ -1,0 +1,12 @@
+--------------------------------------------------
+Station:                           Y59A
+Total iterations (full chain):    128054
+Iterations after burn-in:         118054
+Acceptance rate:                  26.97%
+Number of models used:            37608
+Misfit range of models used:      3.14 - 22.65
+Estimated Sediment velocity:      0.89 ± 0.18 km/s
+Estimated Sediment Vp/Vs0:        3.05 ± 0.28
+Estimated Avg. Crustal Vs:         3.54 ± 0.32 km/s
+Estimated Moho Depth:              30.84 ± 3.02 km
+--------------------------------------------------

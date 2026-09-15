@@ -1,0 +1,12 @@
+--------------------------------------------------
+Station:                           Z55A
+Total iterations (full chain):    100002
+Iterations after burn-in:         90002
+Acceptance rate:                  31.29%
+Number of models used:            29601
+Misfit range of models used:      1.11 - 7.16
+Estimated Sediment velocity:      0.89 ± 0.27 km/s
+Estimated Sediment Vp/Vs0:        3.02 ± 0.29
+Estimated Avg. Crustal Vs:         3.47 ± 0.27 km/s
+Estimated Moho Depth:              30.72 ± 3.06 km
+--------------------------------------------------
