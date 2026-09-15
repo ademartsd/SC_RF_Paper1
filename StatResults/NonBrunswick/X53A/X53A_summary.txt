@@ -1,0 +1,10 @@
+--------------------------------------------------
+Station:                           X53A
+Total iterations (full chain):    100002
+Iterations after burn-in:         90002
+Acceptance rate:                  15.47%
+Number of models used:            16413
+Misfit range of models used:      1.72 - 14.52
+Estimated Avg. Crustal Vs:         3.54 ± 0.30 km/s
+Estimated Moho Depth:              48.25 ± 5.18 km
+--------------------------------------------------
