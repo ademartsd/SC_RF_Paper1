@@ -24,6 +24,9 @@ input_file = f"./input/stream_{station}_RAW_STILL_REVERB.h5"
 # We create the folder to save the figures.
 os.makedirs("./figs", exist_ok=True)
 
+# And the output
+os.makedirs("./output", exist_ok=True)
+
 
 # ============================================================
 # Functions
@@ -216,9 +219,6 @@ def curate_rvr(rfs, station):
 
         stream_rever_rmv_cur.sort(["distance"]).plot_rf(**kw)
         fig = plt.gcf()
-
-        # Exporting figure
-        os.makedirs("./figs", exist_ok=True)
 
         fig.savefig(f"./figs/{station}_q_rmvDt.pdf", bbox_inches="tight", pad_inches=0.2)
         plt.close(fig)
