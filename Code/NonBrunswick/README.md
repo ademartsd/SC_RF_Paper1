@@ -1,48 +1,96 @@
-################################################################
-#                                                              #
-#              MH-MCMC NON-SEDIMENTARY ENVIRONMENT             #
-#                                                              #
-#        Bayesian inversion of receiver functions (RFs)        # 
-#        Output: MATRIX_res_{station}.csv                      #
-#        By Ademar Fernández, September 2026                   # 
-#        Contact: cfernandez@seoe.sc.edu                       #
-#                                                              #
-################################################################
+# MH-MCMC — Non-Sedimentary Environment
 
+Bayesian inversion of receiver functions (RFs) using a Metropolis-Hastings Markov Chain Monte Carlo (MH-MCMC) approach.
 
-################################################################
-################### PART 1: INVERSION CODE #####################
-################################################################
+**Output:** `MATRIX_res_{station}.csv`  
+**Author:** Ademar Fernández, September 2026  
+**Contact:** cfernandez@seoe.sc.edu
 
-The inversion code is MH_MCMC.py. Run it as:
+---
 
-(base) ademar@Z56A$ conda activate prs
-(prs) ademar@Z56A$ python3 MH_MCMC.py 
+## Part 1: Inversion Code
 
-input:  1. Stream with RFs (stream_Y55A.h5)
-	 2. RF stack (Y55A_trace_mean.txt)
-	 3. RF STD (Y55A_trace_std.txt)
+The inversion code is:
 
-output: Once you run the code, the file MATRIX_res_Y55A.csv will be
-	  created in the output folder. 
+`MH_MCMC.py`
 
-Please comment line 48 if you want to do the full run
-(the full inversion takes about a month and a half to run).
+### Running the inversion
 
-################################################################
-################### PART 2: PLOTTING SCRIPT ####################
-################################################################
+Activate the Conda environment:
 
-The plotting script is PLOTS.py. Run it as:
+```bash
+conda activate prs
+```
 
-(base) ademar@Z56A$ conda activate prs
-(prs) ademar@Z56A$ python3 PLOTS.py
+Then run:
 
-input: 1. Results from the inversion (./output/MATRIX_res_Y55A.csv)
-	 2. Stream with RFs (stream_Y55A.h5)
-	 3. RF stack (Y55A_trace_mean.txt)
-	 4. RF STD (Y55A_trace_std.txt)
+```bash
+python3 MH_MCMC.py
+```
 
-output: Once you run the code, the folder ./figs/ will be created, and the figures will be stored inside.
+### Input files
 
-In line 5 (number_to_plot) you can modify the number of models to plot. Line 9 allows us to use all the traces (realistic). The realistic plot could take 24 hours; meanwhile, the fast view ones take just a couple of minutes.
+The inversion requires:
+
+1. RF stream: `stream_Y55A.h5`
+2. RF stack: `Y55A_trace_mean.txt`
+3. RF standard deviation: `Y55A_trace_std.txt`
+
+### Output
+
+Once the inversion is running, the following file will be created inside the `output` directory:
+
+```text
+./output/MATRIX_res_Y55A.csv
+```
+
+> **Full inversion:** Comment out line 48 to perform the full run.  
+> The full inversion takes approximately **one and a half months** to complete.
+
+---
+
+## Part 2: Plotting Script
+
+The plotting script is:
+
+`PLOTS.py`
+
+### Running the plotting script
+
+Activate the Conda environment:
+
+```bash
+conda activate prs
+```
+
+Then run:
+
+```bash
+python3 PLOTS.py
+```
+
+### Input files
+
+The plotting script requires:
+
+1. Inversion results: `./output/MATRIX_res_Y55A.csv`
+2. RF stream: `stream_Y55A.h5`
+3. RF stack: `Y55A_trace_mean.txt`
+4. RF standard deviation: `Y55A_trace_std.txt`
+
+### Output
+
+The script creates the following directory:
+
+```text
+./figs/
+```
+
+All generated figures are stored inside this directory.
+
+### Plotting options
+
+- **Line 5 — `number_to_plot`:** Controls the number of models to plot.
+- **Line 9:** Controls whether all RF traces are used.
+
+Using all traces produces the realistic/full plot and can take approximately **24 hours** to complete. The fast-view option takes only a few minutes.

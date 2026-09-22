@@ -1,33 +1,55 @@
-################################################################
-#                                                              #
-#              SEDIMENT REVERBERATION FILTER	               #
-#                                                              #
-#        Code to remove reverb. from receiver functions (RFs)  # 
-#        Input: raw stream with RFs (reverberating)            #
-#        Output: stream of curated RFs                         #
-#        By Dr. Shubham Agrawal                                # 
-#        Contact: SAGRAWAL@mailbox.sc.edu ,                    #
-#	          or contact me at cfernandez@seoe.sc.edu      #
-#                                                              #
-################################################################
+# Sediment Reverberation Filter
 
-################################################################
-If you use it, please cite (together with this work):
+Code for removing sediment-generated reverberations from receiver functions (RFs).
 
-Agrawal, S., Eakin, C.M., O’Donnell, J.P., 2023. Tracking crustal thick-
-ness at the sediment-inundated edge of the gawler craton, south australia.
-Tectonophysics 862, 229938.
+**Input:** Raw RF stream containing sediment reverberations  
+**Output:** Curated RF stream  
+**Author:** Dr. Shubham Agrawal  
+**Contact:** SAGRAWAL@mailbox.sc.edu  
+**Additional contact:** cfernandez@seoe.sc.edu
 
-################################################################
+---
 
-The code is reverb_removal.py. Run it as:
+## Citation
 
-(base) ademar@Z56A$ conda activate prs
-(prs) ademar@Z56A$ python3 reverb_removal.py
+If you use this code, please cite the following work together with the accompanying manuscript:
 
-input:   1. Stream with raw RFs (stream_Z56A_RAW_STILL_REVERB.h5)
+> Agrawal, S., Eakin, C.M., O’Donnell, J.P., 2023. Tracking crustal thickness at the sediment-inundated edge of the Gawler Craton, South Australia. *Tectonophysics* 862, 229938.
 
-output: Once you run the code, the curated stream (stream_Z56A.h5)
- 	will be created in the output folder. This file will be the
-	output for the inversion for station Z56A. Both are the same
-	files.
+---
+
+## Running the Code
+
+The sediment reverberation removal code is:
+
+`reverb_removal.py`
+
+Activate the Conda environment:
+
+```bash
+conda activate prs
+```
+
+Then run:
+
+```bash
+python3 reverb_removal.py
+```
+
+### Input
+
+The code requires the raw RF stream containing sediment reverberations:
+
+```text
+stream_Z56A_RAW_STILL_REVERB.h5
+```
+
+### Output
+
+Once the code is running, the curated RF stream will be created inside the `output` directory:
+
+```text
+./output/stream_Z56A.h5
+```
+
+This curated RF stream is subsequently used as the RF input for the MH-MCMC inversion of station Z56A.
